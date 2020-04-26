@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify login action for user",
+        "description": "",
+        "id": "free-crm-login;verify-login-action-for-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20564656500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on CRM landing page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_CRM_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 755866400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters username and password",
+            "match": {
+              "location": "LoginStepDefination.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 479217700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on submit button",
+            "match": {
+              "location": "LoginStepDefination.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 854992900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user login to the CRM application",
+            "match": {
+              "location": "LoginStepDefination.user_login_to_the_CRM_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login",
+    "description": "",
+    "id": "free-crm-login",
+    "keyword": "Feature",
+    "uri": "E:/CucumberSelenium/Cucumber With PageObject/CucumberPageObject/src/main/java/com/qa/features/login.feature"
+  }
+]

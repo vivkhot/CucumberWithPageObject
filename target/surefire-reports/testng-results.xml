@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-23T00:41:24 BST" name="FreeCRM" finished-at="2020-04-23T00:41:47 BST" duration-ms="23303">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.ControlCucumberFeature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.testrunner.TestRunner@52aa2946]" name="ControlCucumberFeature" class="com.qa.testrunner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-04-23T00:41:24 BST" name="Regression Tests" finished-at="2020-04-23T00:41:47 BST" duration-ms="23303">
+      <class name="com.qa.testrunner.TestRunner">
+        <test-method is-config="true" signature="setupclass()[pri:0, instance:com.qa.testrunner.TestRunner@52aa2946]" started-at="2020-04-23T00:41:24 BST" name="setupclass" finished-at="2020-04-23T00:41:24 BST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupclass -->
+        <test-method signature="ControlCucumberFeature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.testrunner.TestRunner@52aa2946]" started-at="2020-04-23T00:41:24 BST" name="ControlCucumberFeature" description="run cucumber method" data-provider="features" finished-at="2020-04-23T00:41:47 BST" duration-ms="22756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Free CRM Login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ControlCucumberFeature -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.testrunner.TestRunner@52aa2946]" started-at="2020-04-23T00:41:47 BST" name="TearDown" finished-at="2020-04-23T00:41:47 BST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.qa.testrunner.TestRunner -->
+    </test> <!-- Regression Tests -->
+  </suite> <!-- FreeCRM -->
+</testng-results>
