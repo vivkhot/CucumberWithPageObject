@@ -7,7 +7,7 @@
         <methods>
           <include name="TearDown"/>
           <include name="setupclass"/>
-          <include name="ControlCucumberFeature"/>
+          <include name="ControlCucumberFeature" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.qa.testrunner.TestRunner -->
     </classes>

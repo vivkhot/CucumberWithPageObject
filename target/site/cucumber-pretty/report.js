@@ -38,28 +38,28 @@ formatter.match({
   "location": "LoginStepDefination.user_is_on_CRM_landing_page()"
 });
 formatter.result({
-  "duration": 20564656500,
+  "duration": 14663994200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_enters_username_and_password()"
 });
 formatter.result({
-  "duration": 755866400,
+  "duration": 739097400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.click_on_submit_button()"
 });
 formatter.result({
-  "duration": 479217700,
+  "duration": 60270000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_login_to_the_CRM_application()"
 });
 formatter.result({
-  "duration": 854992900,
+  "duration": 703997100,
   "status": "passed"
 });
 });
